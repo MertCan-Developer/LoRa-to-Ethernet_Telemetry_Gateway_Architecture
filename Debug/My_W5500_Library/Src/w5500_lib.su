@@ -1,0 +1,15 @@
+../My_W5500_Library/Src/w5500_lib.c:18:6:w5500_reg_rd	40	static
+../My_W5500_Library/Src/w5500_lib.c:45:6:w5500_reg_wr	32	static
+../My_W5500_Library/Src/w5500_lib.c:68:6:w5500_reset	16	static
+../My_W5500_Library/Src/w5500_lib.c:75:6:w5500_set_network_configuration	32	static
+../My_W5500_Library/Src/w5500_lib.c:106:6:w5500_set_rtr	32	static
+../My_W5500_Library/Src/w5500_lib.c:118:6:w5500_set_rcr	16	static
+../My_W5500_Library/Src/w5500_lib.c:124:6:w5500_init	56	static
+../My_W5500_Library/Src/w5500_lib.c:152:6:w5500_udp_transmit	56	static
+../My_W5500_Library/Src/w5500_lib.c:250:6:w5500_udp_receive	64	static
+../My_W5500_Library/Src/w5500_lib.c:342:6:w5500_get_the_source_ip	32	static
+../My_W5500_Library/Src/w5500_lib.c:352:9:w5500_read_socket_status	32	static
+../My_W5500_Library/Src/w5500_lib.c:392:6:w5500_socket_udp_init	56	static
+../My_W5500_Library/Src/w5500_lib.c:470:6:w5500_socket_tcp_init	56	static
+../My_W5500_Library/Src/w5500_lib.c:560:6:w5500_tcp_transmit	56	static
+../My_W5500_Library/Src/w5500_lib.c:658:6:w5500_tcp_receive	56	static

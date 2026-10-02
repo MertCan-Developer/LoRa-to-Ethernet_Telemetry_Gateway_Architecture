@@ -1,0 +1,7 @@
+../Core/Src/lora_tx_code.c:104:5:main	80	static
+../Core/Src/lora_tx_code.c:176:6:SystemClock_Config	96	static
+../Core/Src/lora_tx_code.c:218:6:bmp180_get_calib_coeff	8	static
+../Core/Src/lora_tx_code.c:235:6:lora_wait_aux_ready	24	static
+../Core/Src/lora_tx_code.c:245:6:lora_send_data	16	static
+../Core/Src/lora_tx_code.c:252:6:lora_receive_data	16	static
+../Core/Src/lora_tx_code.c:266:6:Error_Handler	8	static,ignoring_inline_asm

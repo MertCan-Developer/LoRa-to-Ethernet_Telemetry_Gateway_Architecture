@@ -1,0 +1,77 @@
+Core/Src/lora_tx_code.o: ../Core/Src/lora_tx_code.c ../Core/Inc/main.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
+ ../Core/Inc/stm32f0xx_hal_conf.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h \
+ ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h \
+ ../Drivers/CMSIS/Include/core_cm0.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_exti.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h \
+ ../Core/Inc/dma.h ../Core/Inc/main.h ../Core/Inc/spi.h \
+ ../Core/Inc/usart.h ../Core/Inc/gpio.h \
+ C:/Users/Mert/STM32CubeIDE/workspace_2.1.1/LoRa-to-Ethernet\ Telemetry\ Gateway\ Architecture/My_W5500_Library/Inc/w5500_lib.h \
+ ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h \
+ C:/Users/Mert/STM32CubeIDE/workspace_2.1.1/LoRa-to-Ethernet\ Telemetry\ Gateway\ Architecture/st7789_library/Inc/st7789.h \
+ C:/Users/Mert/STM32CubeIDE/workspace_2.1.1/LoRa-to-Ethernet\ Telemetry\ Gateway\ Architecture/BMP180_Sensor_Library/Inc/BMP180.h \
+ ../Core/Inc/i2c.h
+../Core/Inc/main.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
+../Core/Inc/stm32f0xx_hal_conf.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h:
+../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h:
+../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h:
+../Drivers/CMSIS/Include/core_cm0.h:
+../Drivers/CMSIS/Include/cmsis_version.h:
+../Drivers/CMSIS/Include/cmsis_compiler.h:
+../Drivers/CMSIS/Include/cmsis_gcc.h:
+../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_exti.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h:
+../Core/Inc/dma.h:
+../Core/Inc/main.h:
+../Core/Inc/spi.h:
+../Core/Inc/usart.h:
+../Core/Inc/gpio.h:
+C:/Users/Mert/STM32CubeIDE/workspace_2.1.1/LoRa-to-Ethernet\ Telemetry\ Gateway\ Architecture/My_W5500_Library/Inc/w5500_lib.h:
+../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h:
+C:/Users/Mert/STM32CubeIDE/workspace_2.1.1/LoRa-to-Ethernet\ Telemetry\ Gateway\ Architecture/st7789_library/Inc/st7789.h:
+C:/Users/Mert/STM32CubeIDE/workspace_2.1.1/LoRa-to-Ethernet\ Telemetry\ Gateway\ Architecture/BMP180_Sensor_Library/Inc/BMP180.h:
+../Core/Inc/i2c.h:
